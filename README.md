@@ -22,4 +22,3 @@ Review
 -	Once you are ready we will set up a meeting to review the task.
 -	We will discuss the trade-offs you had and considerations you made
  
-![image](https://user-images.githubusercontent.com/37338583/225098781-344a2fed-b467-4028-af28-168dd731fe1c.png)
