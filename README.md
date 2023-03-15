@@ -1,24 +1,68 @@
-# Task
-You are required to build a simple “Hello World” web site hosted on AWS cloud.
--	You can use any AWS resources.
--	The end goal is to have some URL. By entering this IP/DNS to the web browser it should open a simple “Hello World” web page.
--	No need to buy public DNS for URL, it is enough to access the site by public IP or any AWS private/auto assigned DNS as well.
--	Open Github repository to hold all the files related to the task
- 
--Make your site scalable to high load of user requests, i.e. it should be able to work correctly and fast then a lot of users open it simultaneously, but it should not waste resources when there is low load.
--Make your site highly available, this means your site should be resistant to failures in AWS availability zones.
--	Create automatic deployment of changes made to your site. Example scenario:
--	Developer changes the page to show “Welcome, World” instead of “Hello World” and pushes it to the Github repository. This will trigger some automatic process which will replace the site files in relevant places.
--Available options (but not limited to): Jenkins/”AWS CodeDeploy service”.
- 
-Additional
--	Use terraform(or any IAC) to create infrastructure
--	https://www.terraform.io/
--	You can use any other open source if needed
--	Mind security considerations during development of the tasks
- 
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Review
--	Once you are ready we will set up a meeting to review the task.
--	We will discuss the trade-offs you had and considerations you made
- 
+## Available Scripts
+
+In the project directory, you can run:
+
+### `yarn start`
+
+Runs the app in the development mode.<br />
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+
+The page will reload if you make edits.<br />
+You will also see any lint errors in the console.
+
+### `yarn test`
+
+Launches the test runner in the interactive watch mode.<br />
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+
+### `yarn build`
+
+Builds the app for production to the `build` folder.<br />
+It correctly bundles React in production mode and optimizes the build for the best performance.
+
+The build is minified and the filenames include the hashes.<br />
+Your app is ready to be deployed!
+
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+### `yarn eject`
+
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+
+## Learn More
+
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+
+To learn React, check out the [React documentation](https://reactjs.org/).
+
+### Code Splitting
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+
+### Analyzing the Bundle Size
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+
+### Making a Progressive Web App
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+
+### Advanced Configuration
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+
+### Deployment
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+
+### `yarn build` fails to minify
+
+This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
